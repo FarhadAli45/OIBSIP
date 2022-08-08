@@ -1,18 +1,46 @@
 body{
-    background-color: #ffba54;
+    background-image: linear-gradient(to right, red, orange,violet, green, blue, indigo, yellow);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.heading{
+.cards{
+    background-color: #eca900;
+    box-sizing: border-box;
+    border: 2px white solid;
+    border-radius: 20px;
+    width: 600px;
     
-   margin-left: 22rem;
-   margin-bottom: 2rem;
+}
+.heading{
+   text-align: center;
+   margin: 1rem;
 }
 
 .input-field{
     display: block;
     margin-left: auto;
-    width: 750px;
+    width: 400px;
     border-radius: 20px;
+}
+.table{
+    margin-left: 2rem;
+    width: 30vw;
+}
+
+.table td  {
+    padding-left: 1.75rem;
+    vertical-align: top;
+    border-top: none;
+    
+    
+}
+
+.table th{
+    border-top: none;
+   
 }
 
 .icons
@@ -20,10 +48,17 @@ body{
     font-size: 40px;
     margin-left: 10px;
     cursor: pointer;
+   
+    box-sizing: border-box;
+    border-radius: 15px;
+
+    
     
 }
 .del-icon{
     cursor: pointer;
     font-size: 20px;
     
+    
 }
+
