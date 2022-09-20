@@ -1,0 +1,43 @@
+body{
+    background-color: black !important;
+}
+
+h1  {
+    color: white;
+}
+p{
+    color: white;
+}
+
+.image{
+    display: flex;
+    justify-content: end;
+    
+}
+.image img{
+    border-radius: 20px;
+    width: 500px;
+    height: 350px;
+}
+.main-text{
+    margin: auto;
+    font-size: 30px;
+   
+}
+.main-row{
+    display: flex;
+    justify-content: space-between;
+}
+.about-text{
+    text-align: center;
+    
+    
+    font-size: 20px;
+}
+hr.line {
+    border-bottom: 1px solid white;
+  }
+.footer{
+    text-align: center;
+    color: white;
+}
